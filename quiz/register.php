@@ -41,7 +41,7 @@ if(isset($_SESSION['login'])){//não está logado
 	<div class="container">
 		<div class="login-form">
 			<?php require_once 'templates/message.php';?>
-			<center><h2><b>AcademySkills</b></h2></center>
+			<center><h2><b>RankQuest</b></h2></center>
 			<div class="form-header">
 				<i class="fa fa-user"></i>
 			</div>

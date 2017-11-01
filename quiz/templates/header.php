@@ -16,7 +16,7 @@ if(!isset($_SESSION['login'])){//não está logado
     <meta name="description" content="Academyskills Quiz">
     <meta name="keywords" content="Jogue agora !">
 	<meta name="author" content="">
-    <title>Academy Skills Quiz</title>
+    <title>RankQuest</title>
     <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
     <!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -68,16 +68,10 @@ if(!isset($_SESSION['login'])){//não está logado
 					<li><a href="start-quiz.php">Buscar Quiz</a></li>
 					<li><a href="ranking.php">Ranking</a></li>
 					
-					<?php
-						
-					echo  "<h4>Level:$_SESSION[level] <br> XP:$_SESSION[xp] / $_SESSION[pont_max] <br></h4><div   id='myProgress'>
-							<div style='width:$_SESSION[pont_bar]%' id='myBar'></div>
-								</div>";
-							
-					?>
+					
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-				
+				<li style='width:250px'><?php echo  "<h4>Level:$_SESSION[level] <br> XP:$_SESSION[xp] / $_SESSION[pont_max]</h4><div   id='myProgress'><div style='width:$_SESSION[pont_bar]%' id='myBar'></div></div>";?></li>
 					<li class="dropdown">
 						<a href="#" data-toggle="dropdown" class="dropdown-toggle">
 							Player
