@@ -2,7 +2,7 @@
 	<!-- Footer -->
     <footer>
     	<div class="container-fluid">
-    		<p class="text-center">Copyright by <a href="www.academyskills.net">AcademySkills</a> 2017</p>
+    		<p class="text-center">Copyright by <a href="www.academyskills.net">RankQuest</a> 2017</p>
     	</div>
     </footer>
     <!-- /Footer -->

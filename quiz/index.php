@@ -14,7 +14,7 @@ if(isset($_SESSION['login'])){//não está logado
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="RankQuest Jogue Agora !">
 	<meta name="author" content="">
-    <title>Academy Skills Quiz</title>
+    <title>RankQuest</title>
 	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -37,7 +37,7 @@ if(isset($_SESSION['login'])){//não está logado
 	<div class="container">
 		<div class="login-form">
 			<?php require_once 'templates/message.php';?>
-			<center><h2><b>AcademySkills</b></h2></center>
+			<center><h2><b>Rankquest</b></h2></center>
 			<div class="form-header">
 				<i class="fa fa-user"></i>
 			</div>
