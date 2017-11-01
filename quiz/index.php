@@ -12,7 +12,7 @@ if(isset($_SESSION['login'])){//não está logado
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Quiz Game AcademySkills Jogue Agora !">
+    <meta name="description" content="RankQuest Jogue Agora !">
 	<meta name="author" content="">
     <title>Academy Skills Quiz</title>
 	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
